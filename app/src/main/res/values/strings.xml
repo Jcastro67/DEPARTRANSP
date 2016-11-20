@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DEPARTRANSP</string>
+    <string name="seleccione_su_destino">SELECCIONE SU DESTINO</string>
+    <string name="seleccione_su_origen">SELECCIONE SU ORIGEN</string>
+    <string name="resultados">Resultados</string>
+    <string name="horarios">Horarios :</string>
+</resources>

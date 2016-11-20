@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_f_reservaciones"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/fondodp"
+    tools:context="com.test.departransp.fReservaciones">
+
+    <TextView
+        android:text="Reservacion de Boletos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView4"
+        android:textStyle="normal|bold"
+        android:textSize="24sp" />
+
+    <Button
+        android:text="Calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCalc"
+        android:layout_marginBottom="29dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/seleccione_su_origen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewOrigen"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:id="@+id/spDepart1"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/textViewOrigen"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/seleccione_su_destino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewDestino"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/spDepart1"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:id="@+id/spDepart2"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/textViewDestino"
+        android:layout_alignEnd="@+id/textView4" />
+
+    <TextView
+        android:text="Cantidad de Boletos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spDepart2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:id="@+id/textView11"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:id="@+id/editText3" />
+</RelativeLayout>
